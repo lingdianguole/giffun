@@ -19,10 +19,10 @@ package com.quxianggif.common.view
 
 import android.content.Context
 import android.os.Build
-import android.support.annotation.RequiresApi
 import android.util.AttributeSet
 import android.view.WindowInsets
 import android.widget.FrameLayout
+import androidx.annotation.RequiresApi
 
 /**
  * 解决FrameLayout中嵌套了EditText，然后Activity使用了透明状态栏后，键盘弹出会将EditText覆盖的问题。使用这种特殊

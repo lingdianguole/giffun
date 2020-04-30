@@ -19,13 +19,13 @@ package com.quxianggif.feeds.ui
 
 import android.content.Context
 import android.os.Bundle
-import android.support.v7.widget.LinearLayoutManager
-import android.support.v7.widget.SimpleItemAnimator
 import android.util.DisplayMetrics
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import android.view.WindowManager
+import androidx.recyclerview.widget.LinearLayoutManager
+import androidx.recyclerview.widget.SimpleItemAnimator
 import com.quxianggif.R
 import com.quxianggif.common.callback.LoadDataListener
 import com.quxianggif.common.callback.PendingRunnable

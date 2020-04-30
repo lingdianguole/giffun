@@ -19,10 +19,10 @@ package com.quxianggif.opensource
 
 import android.os.Bundle
 import android.os.CountDownTimer
-import android.support.transition.Fade
-import android.support.transition.TransitionManager
 import android.transition.Transition
 import android.view.View
+import androidx.transition.Fade
+import androidx.transition.TransitionManager
 import com.quxianggif.common.callback.SimpleTransitionListener
 import com.quxianggif.core.extension.logDebug
 import com.quxianggif.core.extension.logWarn

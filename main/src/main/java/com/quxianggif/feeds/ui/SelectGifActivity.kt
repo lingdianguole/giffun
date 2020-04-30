@@ -21,7 +21,7 @@ import android.Manifest
 import android.app.Activity
 import android.content.Intent
 import android.os.Bundle
-import android.support.v4.app.Fragment
+import androidx.fragment.app.Fragment
 import com.quxianggif.R
 import com.quxianggif.common.callback.PermissionListener
 import com.quxianggif.common.ui.BaseActivity
@@ -117,6 +117,7 @@ class SelectGifActivity : BaseActivity() {
 //    }
 
     override fun onActivityResult(requestCode: Int, resultCode: Int, data: Intent?) {
+        super.onActivityResult(requestCode, resultCode, data)
         when (requestCode) {
             REQUEST_PERMISSION_SETTING -> refreshPermissionStatus()
             else -> {

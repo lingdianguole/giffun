@@ -17,10 +17,10 @@
 
 package com.quxianggif.user.adapter
 
-import android.support.v4.app.Fragment
-import android.support.v4.app.FragmentManager
-import android.support.v4.app.FragmentPagerAdapter
 
+import androidx.fragment.app.Fragment
+import androidx.fragment.app.FragmentManager
+import androidx.fragment.app.FragmentPagerAdapter
 import com.quxianggif.R
 import com.quxianggif.core.util.GlobalUtil
 import com.quxianggif.user.ui.FollowersFragment
@@ -32,7 +32,7 @@ import com.quxianggif.user.ui.FollowingsFragment
  * @author guolin
  * @since 17/7/30
  */
-class FollowshipPagerAdapter(fm: FragmentManager) : FragmentPagerAdapter(fm) {
+class FollowshipPagerAdapter(fm: FragmentManager) : FragmentPagerAdapter(fm,BEHAVIOR_RESUME_ONLY_CURRENT_FRAGMENT) {
 
     private var followingsFragment: FollowingsFragment? = null
 
@@ -48,21 +48,20 @@ class FollowshipPagerAdapter(fm: FragmentManager) : FragmentPagerAdapter(fm) {
         return titles.size
     }
 
-    override fun getItem(position: Int): Fragment? {
+    override fun getItem(position: Int): Fragment {
         return when (position) {
             0 -> {
                 if (followingsFragment == null) {
                     followingsFragment = FollowingsFragment()
                 }
-                followingsFragment
+                followingsFragment!!
             }
-            1 -> {
+            else -> {
                 if (followersFragment == null) {
                     followersFragment = FollowersFragment()
                 }
-                followersFragment
+                followersFragment!!
             }
-            else -> null
         }
     }
 

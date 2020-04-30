@@ -18,9 +18,9 @@
 package com.quxianggif.common.view
 
 import android.content.Context
-import android.support.v7.widget.Toolbar
 import android.util.AttributeSet
 import android.view.MotionEvent
+import androidx.appcompat.widget.Toolbar
 
 /**
  * 用于需要透明化显示的Toolbar。使用这种Toolbar后，即使被Toolbar盖住的区域依然可以点击，解决了被Toolbar盖住的部分明明

@@ -18,8 +18,8 @@
 package com.quxianggif.common.view
 
 import android.content.Context
-import android.support.design.widget.FloatingActionButton
 import android.util.AttributeSet
+import com.google.android.material.floatingactionbutton.FloatingActionButton
 
 /**
  * 自定义的Fab按钮，用于实现Fab偏移功能。

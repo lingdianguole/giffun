@@ -18,14 +18,14 @@
 package com.quxianggif.common.ui
 
 import android.content.pm.PackageManager
-import android.support.annotation.CallSuper
-import android.support.v4.app.Fragment
-import android.support.v4.content.ContextCompat
+import androidx.core.content.ContextCompat
 import android.view.View
 import android.view.ViewStub
 import android.widget.Button
 import android.widget.ProgressBar
 import android.widget.TextView
+import androidx.annotation.CallSuper
+import androidx.fragment.app.Fragment
 import com.quxianggif.R
 import com.quxianggif.common.callback.PermissionListener
 import com.quxianggif.common.callback.RequestLifecycle

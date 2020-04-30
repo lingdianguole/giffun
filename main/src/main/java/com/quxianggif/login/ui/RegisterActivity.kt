@@ -18,14 +18,14 @@
 package com.quxianggif.login.ui
 
 import android.os.Bundle
-import android.support.design.widget.TextInputLayout
-import android.support.transition.Fade
-import android.support.transition.TransitionManager
 import android.view.KeyEvent
 import android.view.View
 import android.view.inputmethod.EditorInfo
 import android.widget.EditText
 import android.widget.TextView
+import androidx.transition.Fade
+import androidx.transition.TransitionManager
+import com.google.android.material.textfield.TextInputLayout
 import com.quxianggif.R
 import com.quxianggif.core.util.AndroidVersion
 import com.quxianggif.core.util.GlobalUtil

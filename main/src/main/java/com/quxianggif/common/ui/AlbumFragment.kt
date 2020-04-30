@@ -23,12 +23,12 @@ import android.content.Context
 import android.database.Cursor
 import android.os.Bundle
 import android.provider.MediaStore
-import android.support.v7.widget.GridLayoutManager
 import android.util.DisplayMetrics
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import android.view.WindowManager
+import androidx.recyclerview.widget.GridLayoutManager
 import com.quxianggif.R
 import com.quxianggif.common.adapter.AlbumAdapter
 import com.quxianggif.common.model.Image

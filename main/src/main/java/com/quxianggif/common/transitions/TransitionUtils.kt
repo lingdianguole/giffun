@@ -18,11 +18,11 @@ package com.quxianggif.common.transitions
 
 import android.annotation.TargetApi
 import android.os.Build
-import android.support.annotation.IdRes
 import android.transition.Transition
 import android.transition.TransitionSet
 import android.view.View
 import android.view.ViewGroup
+import androidx.annotation.IdRes
 
 import java.util.ArrayList
 

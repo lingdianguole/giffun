@@ -18,10 +18,10 @@
 package com.quxianggif.feeds.view
 
 import android.content.Context
-import android.support.v7.widget.AppCompatEditText
 import android.util.AttributeSet
 import android.view.inputmethod.EditorInfo
 import android.view.inputmethod.InputConnection
+import androidx.appcompat.widget.AppCompatEditText
 
 /**
  * 自定义EditText控件，解决多行显示EditText和imeOptions冲突的问题。

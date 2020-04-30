@@ -20,8 +20,8 @@ package com.quxianggif.settings.ui
 import android.content.SharedPreferences
 import android.os.Bundle
 import android.preference.PreferenceManager
-import android.support.v7.preference.ListPreference
-import android.support.v7.preference.PreferenceFragmentCompat
+import androidx.preference.ListPreference
+import androidx.preference.PreferenceFragmentCompat
 import com.quxianggif.R
 
 /**

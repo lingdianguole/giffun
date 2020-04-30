@@ -21,12 +21,12 @@ import android.animation.TimeInterpolator
 import android.annotation.TargetApi
 import android.content.Context
 import android.os.Build
-import android.support.annotation.RequiresApi
 import android.util.ArrayMap
 import android.util.Property
 import android.view.View
 import android.view.animation.AnimationUtils
 import android.view.animation.Interpolator
+import androidx.annotation.RequiresApi
 
 import com.quxianggif.core.GifFun
 import com.quxianggif.core.util.AndroidVersion

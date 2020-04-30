@@ -34,11 +34,12 @@ import android.os.Bundle;
 import android.os.Parcel;
 import android.os.Parcelable;
 import android.provider.MediaStore;
-import android.support.annotation.DrawableRes;
-import android.support.annotation.NonNull;
-import android.support.annotation.Nullable;
-import android.support.annotation.RequiresApi;
-import android.support.v4.app.Fragment;
+
+import androidx.annotation.DrawableRes;
+import androidx.annotation.NonNull;
+import androidx.annotation.Nullable;
+import androidx.annotation.RequiresApi;
+import androidx.fragment.app.Fragment;
 
 import com.quxianggif.core.R;
 
@@ -410,7 +411,7 @@ public final class CropImage {
   /**
    * Create {@link ActivityBuilder} instance to open image picker for cropping and then start {@link
    * CropImageActivity} to crop the selected image.<br>
-   * Result will be received in {@link Activity#onActivityResult(int, int, Intent)} and can be
+   * Result will be received in  and can be
    * retrieved using {@link #getActivityResult(Intent)}.
    *
    * @return builder for Crop Image Activity
@@ -422,7 +423,7 @@ public final class CropImage {
   /**
    * Create {@link ActivityBuilder} instance to start {@link CropImageActivity} to crop the given
    * image.<br>
-   * Result will be received in {@link Activity#onActivityResult(int, int, Intent)} and can be
+   * Result will be received in  and can be
    * retrieved using {@link #getActivityResult(Intent)}.
    *
    * @param uri the image Android uri source to crop or null to start a picker
@@ -436,8 +437,7 @@ public final class CropImage {
    * Get {@link CropImageActivity} result data object for crop image activity started using {@link
    * #activity(Uri)}.
    *
-   * @param data result data intent as received in {@link Activity#onActivityResult(int, int,
-   *     Intent)}.
+   * @param data result data intent as received in .
    * @return Crop Image Activity Result object or null if none exists
    */
   public static ActivityResult getActivityResult(@Nullable Intent data) {

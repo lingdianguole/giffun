@@ -22,13 +22,13 @@ import android.graphics.Canvas
 import android.graphics.Color
 import android.graphics.Paint
 import android.graphics.Rect
-import android.support.annotation.ColorInt
-import android.support.annotation.FloatRange
-import android.support.v4.content.ContextCompat
+import androidx.core.content.ContextCompat
 import android.util.AttributeSet
 import android.util.Property
 import android.view.View
-import android.widget.ImageView
+import androidx.annotation.ColorInt
+import androidx.annotation.FloatRange
+import androidx.appcompat.widget.AppCompatImageView
 
 import com.quxianggif.R
 import com.quxianggif.core.util.AndroidVersion
@@ -41,7 +41,7 @@ import com.quxianggif.util.ColorUtils
  * @author guolin
  * @since 17/6/8
  */
-class ParallaxImageView(context: Context, attrs: AttributeSet?) : ImageView(context, attrs) {
+class ParallaxImageView(context: Context, attrs: AttributeSet?) : AppCompatImageView(context, attrs) {
     private val scrimPaint: Paint
     private var imageOffset: Int = 0
     private var minOffset: Int = 0

@@ -20,13 +20,13 @@ import android.annotation.TargetApi
 import android.content.Context
 import android.graphics.Point
 import android.os.Build
-import android.support.annotation.IdRes
 import android.transition.TransitionValues
 import android.transition.Visibility
 import android.util.AttributeSet
 import android.view.View
 import android.view.ViewAnimationUtils
 import android.view.ViewGroup
+import androidx.annotation.IdRes
 import com.quxianggif.R
 import com.quxianggif.util.AnimUtils
 

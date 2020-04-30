@@ -23,9 +23,8 @@ import android.content.Context
 import android.graphics.Point
 import android.os.Build
 import android.os.Bundle
-import android.support.annotation.TransitionRes
-import android.support.v7.widget.LinearLayoutManager
-import android.support.v7.widget.SimpleItemAnimator
+import androidx.recyclerview.widget.LinearLayoutManager
+import androidx.recyclerview.widget.SimpleItemAnimator
 import android.text.InputType
 import android.text.TextUtils
 import android.transition.Transition
@@ -41,6 +40,7 @@ import android.widget.EditText
 import android.widget.ImageView
 import android.widget.LinearLayout
 import android.widget.SearchView
+import androidx.annotation.TransitionRes
 import com.quxianggif.R
 import com.quxianggif.common.callback.InfiniteScrollListener
 import com.quxianggif.common.callback.LoadDataListener

@@ -27,9 +27,9 @@ import android.graphics.PorterDuff
 import android.graphics.PorterDuffXfermode
 import android.graphics.RectF
 import android.os.Build
-import android.support.annotation.IntRange
 import android.util.AttributeSet
 import android.view.View
+import androidx.annotation.IntRange
 
 /**
  * 摄像机样式的自定义View，用于作用GIF图片的加载进度条。
