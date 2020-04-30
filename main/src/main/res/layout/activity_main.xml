@@ -9,7 +9,7 @@
     android:fitsSystemWindows="true"
     tools:context="com.quxianggif.feeds.ui.MainActivity">
 
-    <android.support.design.widget.CoordinatorLayout
+    <androidx.coordinatorlayout.widget.CoordinatorLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent">
 
@@ -19,12 +19,12 @@
             android:background="@color/wall"
             />
 
-        <android.support.design.widget.AppBarLayout
+        <com.google.android.material.appbar.AppBarLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar">
 
-            <android.support.v7.widget.Toolbar
+            <androidx.appcompat.widget.Toolbar
                 android:id="@+id/toolbar"
                 android:layout_width="match_parent"
                 android:layout_height="?attr/actionBarSize"
@@ -41,7 +41,7 @@
                 app:tabSelectedTextColor="@color/white_text"
                 app:tabTextAppearance="@style/MainActivityTabText"
                 />
-        </android.support.design.widget.AppBarLayout>
+        </com.google.android.material.appbar.AppBarLayout>
 
         <androidx.viewpager.widget.ViewPager
             android:id="@+id/viewpager"
@@ -58,7 +58,7 @@
             android:src="@drawable/ic_compose"
             android:visibility="gone"
             tools:visibility="visible" />
-    </android.support.design.widget.CoordinatorLayout>
+    </androidx.coordinatorlayout.widget.CoordinatorLayout>
 
 
     <com.google.android.material.navigation.NavigationView

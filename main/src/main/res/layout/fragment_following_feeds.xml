@@ -5,7 +5,7 @@
     android:layout_height="match_parent"
     android:background="@color/wall">
 
-    <androidx.core.widget.SwipeRefreshLayout
+    <androidx.swiperefreshlayout.widget.SwipeRefreshLayout
         android:id="@+id/swipeRefresh"
         android:layout_width="match_parent"
         android:layout_height="match_parent">
@@ -16,7 +16,7 @@
             android:layout_height="match_parent"
             android:visibility="gone"
             />
-    </androidx.core.widget.SwipeRefreshLayout>
+    </androidx.swiperefreshlayout.widget.SwipeRefreshLayout>
 
     <include layout="@layout/loading" />
 
