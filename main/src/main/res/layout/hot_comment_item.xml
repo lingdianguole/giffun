@@ -16,6 +16,7 @@
         android:layout_marginBottom="15dp"
         tools:src="@drawable/avatar_default" />
 
+
     <androidx.percentlayout.widget.PercentRelativeLayout
         android:layout_width="0dp"
         android:layout_height="wrap_content"
